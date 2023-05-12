@@ -1,0 +1,8 @@
+theme: jekyll-theme-modernist
+title: Q'zero Cursor
+description: Black cursor with danger style (left and right-handed) for Windows.
+show_downloads: true
+
+github:
+  zip_url: https://github.com/genesistoxical/qzero-cursor/releases/download/1.0/Q'zero-Cursor.zip
+  is_project_page: true

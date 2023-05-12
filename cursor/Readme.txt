@@ -1,3 +1,9 @@
+﻿
+                          Q'zero Cursor version 1.0
+               https://genesistoxical.github.io/qzero-cursor/
+
+______________________________________________________________________________
+
 MIT License
 
 Copyright (c) 2023 Génesis Toxical

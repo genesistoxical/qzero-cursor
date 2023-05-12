@@ -1,0 +1,115 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+    background: none;
+    border-bottom: 0px;
+    padding-bottom: 17px;
+}
+
+header p {
+    color: #ffffffcf;
+    width: 380px;
+}
+
+header ul:before {
+    background: #ffffff17;
+    box-shadow: none;
+    left: -5px;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+}
+
+header ul li {
+    width: 200px;
+    border-right: 0px solid #ffffff24;
+}
+
+header ul li+li {
+    border-left: none;
+}
+
+header ul {
+    background: #ffffff1c;
+    border: 0px;
+    box-shadow: none;;
+}
+
+header ul a {
+    text-shadow: none;
+}
+
+header ul a strong {
+    color: #000000d9;
+}
+
+header h1 {
+    color: #000000d9;
+    text-shadow: none;
+}
+
+section {
+    padding: 15px 92px 60px 92px;
+    background: transparent;
+    border-top: 1px solid #ffffff1c;
+    border-bottom: 1px solid #ffffff1c;
+}
+
+.wrapper {
+    background: #ffffff12;
+    box-shadow: none;
+    border: 1px solid #ffffff1c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000d9;
+}
+
+p:nth-child(1) {
+    padding-bottom: 5px;
+}
+
+img:nth-child(1) {
+    max-width: none;
+    margin-left: -72px;
+}
+
+footer a, a {
+    color: #000000ba;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+body {
+    color: #ffffffcf;
+    background: linear-gradient(173deg, #6E63A3 0%, #B08CC0 80%);
+    background-attachment: fixed;
+    padding: 50px 0px 50px 0px;
+}
+
+p, strong {
+    color: #ffffffcf;
+}
+
+code, pre {
+    color: #fff;
+    background: #ffffff17;
+    padding: 3px 6px 3px 6px;
+    border-radius: 2px;
+}
+
+.github-fork-ribbon:before {
+    background-color: #1a1a1a!important;
+}
+
+::selection {
+    color: white;
+    background: #ffffff1c;
+}
+
+footer {
+    padding: 23px 0px 0px 0px;
+}

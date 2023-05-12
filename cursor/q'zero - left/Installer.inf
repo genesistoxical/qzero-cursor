@@ -1,0 +1,55 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pin%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Pointer.cur
+Help.cur
+Work.ani
+Busy.ani
+Text.cur
+Unavailiable.cur
+Vert.cur
+Horz.cur
+Dgn1.cur
+Dgn2.cur
+Move.cur
+Link.cur
+Cross.cur
+Hand.cur
+Alt.cur
+Person.cur
+Pin.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Q'zero Left"
+SCHEME_NAME   = "Q'zero Left"
+pointer       = "Pointer.cur"
+help          = "Help.cur"
+work          = "Work.ani"
+busy          = "Busy.ani"
+text          = "Text.cur"
+unavailiable  = "Unavailiable.cur"
+vert          = "Vert.cur"
+horz          = "Horz.cur"
+dgn1          = "Dgn1.cur"
+dgn2          = "Dgn2.cur"
+move          = "Move.cur"
+link          = "Link.cur"
+cross         = "Cross.cur"
+hand          = "Hand.cur"
+alternate     = "Alt.cur"
+person        = "Person.cur"
+pin           = "Pin.cur"
