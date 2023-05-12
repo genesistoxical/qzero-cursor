@@ -60,7 +60,7 @@ The animation of the **Busy** cursor must be **7s/60** (the sequence of the fram
 
 ### Release ZIP
 
-To finish, all you have to do is rename the *cursor* folder to *Q'zero Cursor* and add it to a ZIP file. You can also do it automatically by running the **zip.bat** file, it seems to work on Windows 10 and 11 (because of the *tar* command).
+To finish, all you have to do is rename the *cursor* folder to *Q'zero Cursor* and add it to a ZIP file. You can also do it automatically by running the **zip with 7zip.bat** file, it only works with [7zip](https://www.7-zip.org/).
 </br>
 
 </br>
@@ -106,7 +106,7 @@ La animación del cursor **Busy** debe ser de **7s/60** (la secuencia de los fra
 
 ### Release ZIP
 
-Para finalizar, únicamente deberás renombrar la carpeta *cursor* por *Q'zero Cursor* y añadirla a un archivo ZIP. También puedes hacerlo automáticamente ejecutando el archivo **zip.bat**, al parecer funciona en Windows 10 y 11 (debido al comando *tar*).
+Para finalizar, únicamente deberás renombrar la carpeta *cursor* por *Q'zero Cursor* y añadirla a un archivo ZIP. También puedes hacerlo automáticamente ejecutando el archivo **zip with 7zip.bat**, únicamente funciona con [7zip](https://www.7-zip.org/).
 </br>
 
 </br>
